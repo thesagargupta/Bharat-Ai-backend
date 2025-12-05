@@ -1,0 +1,91 @@
+# Bharat AI - Robots.txt
+# https://thebharatai.vercel.app/robots.txt
+
+# Default Rules for All Bots
+User-agent: *
+Allow: /
+Allow: /login
+Allow: /privacy-policy
+Allow: /terms-of-use
+Disallow: /api/
+Disallow: /profile
+Disallow: /setting
+Disallow: /chat
+Disallow: /admin
+
+# Crawl-delay to prevent server overload
+Crawl-delay: 1
+
+# Google Bot - Full Access
+User-agent: Googlebot
+Allow: /
+Allow: /login
+Allow: /privacy-policy
+Allow: /terms-of-use
+Disallow: /api/
+Disallow: /profile
+Disallow: /setting
+Disallow: /chat
+Disallow: /admin
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /profile
+Disallow: /chat
+Disallow: /admin
+
+# Yandex Bot
+User-agent: Yandex
+Allow: /
+Disallow: /api/
+Disallow: /profile
+Disallow: /chat
+
+# Block AI Training Bots (Optional - Protects your content)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Block Bad Bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap Location
+Sitemap: https://thebharatai.vercel.app/sitemap.xml
+
+User-agent: Bingbot
+Allow: /
+Allow: /login
+Allow: /privacy-policy
+Allow: /terms-of-use
+
+User-agent: Slurp
+Allow: /
+Allow: /login
+Allow: /privacy-policy
+Allow: /terms-of-use
+
+# Sitemap location
+Sitemap: https://thebharatai.vercel.app/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
